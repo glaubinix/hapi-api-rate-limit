@@ -1,0 +1,25 @@
+{
+  "name": "hapi-api-rate-limit",
+  "version": "0.1.0",
+  "author": "",
+  "description": "Redis api rate limit plugin for hapi",
+  "main": "index.js",
+  "keywords": [
+    "hapi",
+    "plugin",
+    "auth",
+    "hawk",
+    "bewit"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "hoek": "1.x.x",
+    "redback": "^0.4.0"
+  },
+  "peerDependencies": {
+    "hapi": ">=2.x.x"
+  }
+}
