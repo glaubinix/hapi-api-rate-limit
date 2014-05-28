@@ -25,7 +25,7 @@ var server = new Hapi.Server();
 
 var options = {
 	interval: 10, // seconds
-	requestLimit: 1 // 1 request per time frame
+	requestLimit: 1 // 1 request per interval
 };
 
 server.pack.require('hapi-api-rate-limit', options, function (err) {

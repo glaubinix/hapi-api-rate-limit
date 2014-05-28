@@ -1,15 +1,17 @@
 {
   "name": "hapi-api-rate-limit",
-  "version": "0.1.0",
-  "author": "",
+  "version": "0.1.1",
+  "author": "Stephan Vock <stephan.vock@gmail.com>",
   "description": "Redis api rate limit plugin for hapi",
   "main": "index.js",
+  "repository": "git@github.com:glaubinix/hapi-api-rate-limit.git",
   "keywords": [
     "hapi",
     "plugin",
-    "auth",
-    "hawk",
-    "bewit"
+    "rate-limit",
+    "api",
+    "rate",
+    "redis"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
