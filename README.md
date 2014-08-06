@@ -2,6 +2,10 @@
 
 Redis api rate limit plugin for hapi
 
+[![Dependency Status](https://www.versioneye.com/user/projects/53e2944ce0a229671f00000c/badge.svg?style=flat)](https://www.versioneye.com/user/projects/53e2944ce0a229671f00000c)
+
+[![NPM](https://nodei.co/npm/hapi-api-rate-limit.png)](https://nodei.co/npm/hapi-api-rate-limit/)
+
 ### Usage
 
 To use default settings simply write:
