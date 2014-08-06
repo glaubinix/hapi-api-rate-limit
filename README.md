@@ -15,7 +15,7 @@ var Hapi = require('hapi');
 var server = new Hapi.Server();
 
 
-server.pack.require('hapi-api-rate-limit', function (err) {
+server.pack.register(require('hapi-api-rate-limit'), function (err) {
 	// plugin is loaded
 });
 
@@ -32,7 +32,10 @@ var options = {
 	requestLimit: 1 // 1 request per interval
 };
 
-server.pack.require('hapi-api-rate-limit', options, function (err) {
+server.pack.register({
+	plugin: require('hapi-api-rate-limit'),
+	options: options
+}, function (err) {
 	// plugin is loaded
 });
 
