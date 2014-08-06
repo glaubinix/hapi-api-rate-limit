@@ -1,6 +1,6 @@
 {
   "name": "hapi-api-rate-limit",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "Stephan Vock <stephan.vock@gmail.com>",
   "description": "Redis api rate limit plugin for hapi",
   "main": "lib/index.js",
