@@ -20,8 +20,5 @@
   "dependencies": {
     "hoek": "^2.4.1",
     "redback": "^0.4.0"
-  },
-  "peerDependencies": {
-    "hapi": ">=2.x.x"
   }
 }
